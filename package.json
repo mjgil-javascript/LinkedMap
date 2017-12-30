@@ -1,21 +1,21 @@
 {
-  "name": "linkedmapjs",
+  "name": "linkedmap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjgil-javascript/LinkedMapJS.git"
+    "url": "git+https://github.com/mjgil-javascript/LinkedMap.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mjgil-javascript/LinkedMapJS/issues"
+    "url": "https://github.com/mjgil-javascript/LinkedMap/issues"
   },
-  "homepage": "https://github.com/mjgil-javascript/LinkedMapJS#readme",
+  "homepage": "https://github.com/mjgil-javascript/LinkedMap#readme",
   "dependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.1.0"
