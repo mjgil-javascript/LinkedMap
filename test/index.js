@@ -1,4 +1,4 @@
-import { LinkedMap } from '../index.js'
+import { LinkedMap } from '../build/index.js'
 import chai, { expect }  from 'chai'
 
 describe('LinkedMap', () => {

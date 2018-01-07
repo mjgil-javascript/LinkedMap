@@ -1,1 +1,3 @@
-# LinkedMapJS
+# LinkedMap
+
+Mutable LinkedMap datastructure
