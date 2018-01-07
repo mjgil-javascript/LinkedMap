@@ -2,8 +2,10 @@
   "name": "linkedmap",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "prebuild": "rimraf build && mkdir build",
+    "build": "declassify index.js build/index.js COPYRIGHT LinkedMap",
     "test": "mocha"
   },
   "repository": {
@@ -16,8 +18,11 @@
     "url": "https://github.com/mjgil-javascript/LinkedMap/issues"
   },
   "homepage": "https://github.com/mjgil-javascript/LinkedMap#readme",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.1.0"
-  }
+    "declassify": "git+https://git@github.com/mjgil-javascript/declassify.git#4194c66",
+    "mocha": "^4.1.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {}
 }
